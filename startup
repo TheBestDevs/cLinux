@@ -72,8 +72,8 @@ local function drawMenu()
 	oldTerm = term.current()
 	local w, h = 15, 11
 	local wlist = window.create(term.current(), 26-w/2, 10-h/2, w, h)
-	local str = "-GRUB-"
-	local str2 = "Please select an image."
+	local str = "ClipPhone"
+	local str2 = "Please select an OS"
 	local str3 = "Press E to write additional commands."
 	local cmd = window.create(term.current(), 26-#str3/2, 19, #str3, 1)
 	cmd.setBackgroundColor(colors.gray)
